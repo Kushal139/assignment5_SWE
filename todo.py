@@ -5,7 +5,6 @@ def add_task(task):
     tasks.append(task)
     print(f'Task "{task}" added.')
 
-
 def list_tasks():
     if not tasks:
         print("No tasks available.")
