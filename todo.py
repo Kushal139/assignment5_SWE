@@ -10,6 +10,8 @@ def list_tasks():
     if not tasks:
         print("No tasks available.")
     else:
+        print("\nTo-Do List:")
+        print("-----------")
         for idx, task in enumerate(tasks, start=1):
             print(f'{idx}. {task}')
 
